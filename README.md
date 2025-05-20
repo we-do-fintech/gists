@@ -1,3 +1,3 @@
 # gists
 
-[safejs](/safejs/README.md)
+[safejs](/safejs)
