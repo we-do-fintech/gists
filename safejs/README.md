@@ -15,6 +15,7 @@ The web loads tons of third-party code — often without audit or control. One c
 
 **Subresource Integrity (SRI)** helps, but only works in HTML. Not in JS. Not in Workers. Not in `importScripts()`.
 
+
 ```js
 importScripts("https://safejs.yourdomain.workers.dev/?url=https://cdn.example.com/lib.js&integrity=sha256-AbCdEfGhIjKlMnOpQrStUvWxYz1234567890abcdeFg=");
 ```
@@ -26,3 +27,6 @@ If the hash is wrong ❌ — returns:
 // Integrity check failed
 console.error("Integrity mismatch");
 ```
+
+
+by [wdft](https://wdft.ovh)
